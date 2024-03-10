@@ -4,9 +4,15 @@
 
 # Data Understanding
 ### Dataset Overview
+#### Summary: The dataset contains records of aircraft crashes between 1948 - 2022. The data from 1948 -1982 is limited so we drop those data points to focus on the majority of the volume following 1982. Data points include the number of engines, seveirty of passenger injuries, severity of aircraft damage,and more.
+
+### Important Data Columns:
+
 #### Aircraft Make and Model: Information about the specific make and model of the aircraft involved in each incident.
-#### Weather Conditions: Details on the weather conditions prevailing at the time of the accidents.
-#### Country: The country where the aviation accident took place.
+
+#### Aircraft Damage: The severity of the damage to the aircraft
+
+#### Severity of Injuries: A count for each incident on the number of uninjured, minor, serious, and fatal injuries.
 
 # Data Preparation
 ### Identify unclean and missing data 
