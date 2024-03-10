@@ -1,3 +1,14 @@
+# Navigating the Git Repository
+
+## Data Sources
+### aviation_data.csv - main data source used for analysis
+### us_state_codes.csv - codes for every US state
+
+## Presentation Links
+### PowerPoint: https://github.com/alecs1523/Aviation_Data_Analysis/blob/main/phase_1_aviation_analysis.pptx
+### PDF: 
+
+
 # Business Understanding
 ## Goal
 ### Identify the safest aircraft make and model to inform investment decision 
