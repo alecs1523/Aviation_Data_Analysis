@@ -40,6 +40,7 @@ There are several columns missing values in more than 25% of rows which we will 
 #### Explore the safest airplane maker and analyze different metrics such as the severity of aircraft damage and injuries
 
 #### Visualize if there is a correlation between airplane manufacturer and the severity of aircraft damage
+![download](https://github.com/alecs1523/Aviation_Data_Analysis/assets/48231231/17439219-3fe0-4836-ad15-bbd31d38c5cc)
 
 ![Uploading image.png…]()
 
