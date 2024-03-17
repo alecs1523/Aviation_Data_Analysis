@@ -8,7 +8,6 @@
 ### PowerPoint: https://github.com/alecs1523/Aviation_Data_Analysis/blob/main/phase_1_aviation_analysis.pptx
 ### PDF: 
 
-![Uploading image.png…]()
 
 # Business Understanding
 ## Goal
@@ -37,17 +36,12 @@ The dataframe has 88889 rows and 31 columns.
 
 There are several columns missing values in more than 25% of rows which we will drop to ensure significant population of results. The columns we drop are ['Latitude', 'Longitude', 'Airport.Code', 'Airport.Name', 'Aircraft.Category', 'FAR.Description', 'Schedule', 'Air.carrier', 'Broad.phase.of.flight']
 
-
-
 # Exploratory Data Analysis
 #### Explore the safest airplane maker and analyze different metrics such as the severity of aircraft damage and injuries
 
-#### Visualize if there is a correlation between airplane manufacturer and severity of aircraft damage
+#### Visualize if there is a correlation between airplane manufacturer and the severity of aircraft damage
 
-top_10_damage_by_make_percentage.plot(kind='bar',stacked=True)
-plt.legend(bbox_to_anchor=(1.29,1),loc='upper right',borderaxespad=0)
-
-plt.show()
+![Uploading image.png…]()
 
 # Dive Deeper Into Boeing
 #### Analyze Boeing at a deeper level after identifying it as the safest manufacturer
