@@ -8,6 +8,7 @@
 ### PowerPoint: https://github.com/alecs1523/Aviation_Data_Analysis/blob/main/phase_1_aviation_analysis.pptx
 ### PDF: 
 
+![Uploading image.png…]()
 
 # Business Understanding
 ## Goal
