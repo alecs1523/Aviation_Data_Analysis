@@ -11,7 +11,7 @@
 
 # Business Understanding
 ## Goal
-### Identify the safest aircraft make and model to inform investment decision 
+### Identify the variables that make an airplane safe and provide business reccomendations based on this analysis. 
 
 # Data Understanding
 ### Dataset Overview
@@ -25,11 +25,28 @@
 
 #### Severity of Injuries: A count for each incident on the number of uninjured, minor, serious, and fatal injuries.
 
+#### Engine Type: The type of engine being used in the aircraft
+
+#### Num of Engines: Thye # of engines on the aircraft.
+
 # Data Preparation
-### Identify unclean and missing data 
+### Prepare data for analysis
+
+The dataframe has 88889 rows and 31 columns. 
+
+There are several columns missing values in more than 25% of rows which we will drop to ensure significant population of results. The columns we drop are ['Latitude', 'Longitude', 'Airport.Code', 'Airport.Name', 'Aircraft.Category', 'FAR.Description', 'Schedule', 'Air.carrier', 'Broad.phase.of.flight']
+
+
 
 # Exploratory Data Analysis
 #### Explore the safest airplane maker and analyze different metrics such as the severity of aircraft damage and injuries
+
+#### Visualize if there is a correlation between airplane manufacturer and severity of aircraft damage
+
+top_10_damage_by_make_percentage.plot(kind='bar',stacked=True)
+plt.legend(bbox_to_anchor=(1.29,1),loc='upper right',borderaxespad=0)
+
+plt.show()
 
 # Dive Deeper Into Boeing
 #### Analyze Boeing at a deeper level after identifying it as the safest manufacturer
