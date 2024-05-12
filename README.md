@@ -42,20 +42,25 @@ The dataframe has 88889 rows and 31 columns.
 
 There are several columns missing values in more than 25% of rows which we will drop to ensure significant population of results. The columns we drop are ['Latitude', 'Longitude', 'Airport.Code', 'Airport.Name', 'Aircraft.Category', 'FAR.Description', 'Schedule', 'Air.carrier', 'Broad.phase.of.flight']
 
-
-
 # Exploratory Data Analysis
+#### Explore the impact different engine types have on plane safety
+#### Visualize if there is a correlation between engine type and the severity of aircraft damage
+![download](https://github.com/alecs1523/Aviation_Data_Analysis/assets/48231231/c01b59d4-dea3-4d3a-a506-e4b071b6e584)
+
+#### Explore the impact different number of engines has on plane safety
+#### Visualize if there is a correlation between number of engines and the severity of aircraft damage
+![download](https://github.com/alecs1523/Aviation_Data_Analysis/assets/48231231/afdf1020-4552-402c-a6c2-dcd0f9edc8cb)
+
 #### Explore the safest airplane maker and analyze different metrics such as the severity of aircraft damage and injuries
 
-#### Visualize if there is a correlation between airplane manufacturer and severity of aircraft damage
-
-top_10_damage_by_make_percentage.plot(kind='bar',stacked=True)
-plt.legend(bbox_to_anchor=(1.29,1),loc='upper right',borderaxespad=0)
-
-plt.show()
+#### Visualize if there is a correlation between airplane manufacturer and the severity of aircraft damage
+![download](https://github.com/alecs1523/Aviation_Data_Analysis/assets/48231231/17439219-3fe0-4836-ad15-bbd31d38c5cc)
 
 # Dive Deeper Into Boeing
 #### Analyze Boeing at a deeper level after identifying it as the safest manufacturer
+
+![download](https://github.com/alecs1523/Aviation_Data_Analysis/assets/48231231/2972ec48-1d85-444a-8ef9-a38485d1f813)
+
 
 # Conclusion
 #### My recommendation is to look for Boeing made airplanes, specifically the 777 and 747 models, preferably with The Turbo Fan and Turbo Jet engine, and 3-4 engines.
