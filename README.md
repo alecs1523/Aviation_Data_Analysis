@@ -1,4 +1,5 @@
 # Navigating the Git Repository
+![777x-hero_1280x720](https://github.com/alecs1523/Aviation_Data_Analysis/assets/48231231/c69d4120-e48f-4fbc-80c8-9a18597799ae)
 
 ## Overview
 ### This project analyzes historical aviation data from 1948-2022 with a focus on accident history. Aviation accidents can be contributed to many variables and the goal of this project is to identify ~3 critical data points that attribute the most to aviation accidents. A business evaluating which type of airplane to use for its business can use these findings to select the best investment for them.
