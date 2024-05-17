@@ -36,6 +36,9 @@
 
 #### Num of Engines: Thye # of engines on the aircraft.
 
+![image](https://github.com/alecs1523/Aviation_Data_Analysis/assets/48231231/f552e02d-0e8d-48ce-82e9-9c38b079ba52)
+
+
 # Data Preparation
 ### Prepare data for analysis
 
