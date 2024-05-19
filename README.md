@@ -1,4 +1,5 @@
 # Navigating the Git Repository
+![777x-hero_1280x720](https://github.com/alecs1523/Aviation_Data_Analysis/assets/48231231/c69d4120-e48f-4fbc-80c8-9a18597799ae)
 
 ## Overview
 ### This project analyzes historical aviation data from 1948-2022 with a focus on accident history. Aviation accidents can be contributed to many variables and the goal of this project is to identify ~3 critical data points that attribute the most to aviation accidents. A business evaluating which type of airplane to use for its business can use these findings to select the best investment for them.
@@ -34,6 +35,11 @@ Severity of Injuries: A count for each incident on the number of uninjured, mino
 Engine Type: The type of engine being used in the aircraft
 
 Num of Engines: Thye # of engines on the aircraft.
+
+### Dataframe Key Statistics
+
+![image](https://github.com/alecs1523/Aviation_Data_Analysis/assets/48231231/f552e02d-0e8d-48ce-82e9-9c38b079ba52)
+
 
 # Data Preparation
 ### Prepare data for analysis
